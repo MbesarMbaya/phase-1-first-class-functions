@@ -1,7 +1,7 @@
 const receivesAFunction = callBack => callBack();
 function returnsANamedFunction() {
-    return function iHaveAName() {
-      console.log("I have a name!");
+    return function iCycleToSchool() {
+      console.log("I cycle to school");
     };
 }
 
